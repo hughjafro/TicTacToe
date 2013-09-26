@@ -14,7 +14,8 @@
 
 body {
 	background: black;
-	background: url("http://cdn.fansided.com/wp-content/blogs.dir/202/files/2012/11/GIFBARKZ.gif");
+	/*background: url("GIFBARKZ.gif");
+	/*background: url("http://cdn.fansided.com/wp-content/blogs.dir/202/files/2012/11/GIFBARKZ.gif");*/
 	background-size: 100%;
     background-position: inherit;
 	background-repeat: no-repeat;
