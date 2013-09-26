@@ -8,16 +8,18 @@
 .gamebox {
 	width: 330px;
 	background-color: none;
-	margin: 0px auto;
+	margin: 100px auto;
 	opacity: .8;
 }
 
 body {
 	background: black;
-	/*background: url("http://cdn.fansided.com/wp-content/blogs.dir/202/files/2012/11/GIFBARKZ.gif");*/
+	background: url("http://cdn.fansided.com/wp-content/blogs.dir/202/files/2012/11/GIFBARKZ.gif");
 	background-size: 100%;
     background-position: inherit;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+
 }
 
 .sqr {
@@ -47,9 +49,12 @@ body {
 }
 
 .buttons {
-	width: 100%;
+	width: 100px;
+	height: 50px;
 	margin: 0px auto 0px auto;
-	padding: 6px 2px 6px 2px;
+	padding: 20px 2px 6px 2px;
+	font-size: 20px;
 }
 
-/*event.target.innerHTML="X"*/
+/*
+*/
