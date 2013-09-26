@@ -1,16 +1,24 @@
 .container {
 	width: 100%;
-	background-color: #00d0ff;
+	/*background-color: #00d0ff;*/
 	margin: 0px;
+	z-index: -5;
 }
 
 .gamebox {
 	width: 330px;
-	background-color: black;
+	background-color: none;
 	margin: 0px auto;
+	opacity: .8;
 }
 
-body {background-color: #00d0ff;}
+body {
+	background: black;
+	/*background: url("http://cdn.fansided.com/wp-content/blogs.dir/202/files/2012/11/GIFBARKZ.gif");*/
+	background-size: 100%;
+    background-position: inherit;
+	background-repeat: no-repeat;
+}
 
 .sqr {
   height: 100px;
@@ -27,6 +35,7 @@ body {background-color: #00d0ff;}
 
 #sqr11 {
   background: white;
+
 }
 
 #sqr12 {
@@ -36,3 +45,11 @@ body {background-color: #00d0ff;}
 #sqr13 {
   background: white;
 }
+
+.buttons {
+	width: 100%;
+	margin: 0px auto 0px auto;
+	padding: 6px 2px 6px 2px;
+}
+
+/*event.target.innerHTML="X"*/
