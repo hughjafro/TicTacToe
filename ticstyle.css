@@ -1,0 +1,38 @@
+.container {
+	width: 100%;
+	background-color: #00d0ff;
+	margin: 0px;
+}
+
+.gamebox {
+	width: 330px;
+	background-color: black;
+	margin: 0px auto;
+}
+
+body {background-color: #00d0ff;}
+
+.sqr {
+  height: 100px;
+  width: 100px;
+  border: solid white;
+  margin: 2px;
+  background: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 100px;
+  float: left;
+}
+
+
+#sqr11 {
+  background: white;
+}
+
+#sqr12 {
+  background: white;
+}
+
+#sqr13 {
+  background: white;
+}
