@@ -33,7 +33,7 @@ function playBox(){
 		
 		if(singArray[6] == singArray[7] && singArray[7] == singArray[8] && singArray[6] != "")
 			alert(singArray[6] + " is the champion!");
-		if(singArray[0] == singArray[3] && singArray[3] == singArray[3] && singArray[0] != "")
+		if(singArray[0] == singArray[3] && singArray[3] == singArray[6] && singArray[0] != "")
 			alert(singArray[0] + " is the champion!");
 		if(singArray[1] == singArray[4] && singArray[4] == singArray[7] && singArray[1] != "")
 			alert(singArray[1] + " is the champion!");

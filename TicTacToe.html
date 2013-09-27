@@ -18,6 +18,14 @@
 
 			<div class="gamebox">
 
+				<div id="alert">
+					<div class="clear">Game Over</div>
+					<div id="buttons">
+						<input class="buttons" type="button" id="btn1" value="Start Over" onclick="startPlayAgain()" />
+						<input class="buttons" type="button" id="btn2" value="Give Up" onclick="navExit()" />
+					</div>
+				</div>
+
 				<div class="row1">
 					<div class="sqr" id="sqr1" onclick="playBox()"></div>
 					<div class="sqr" id="sqr2" onclick="playBox()"></div>
@@ -38,6 +46,7 @@
 					<div class="sqr" id="sqr9" onclick="playBox()"></div>
 					<div class="clear"></div>
 				</div>
+
 					<div id="buttons">
 						<input class="buttons" type="button" id="btn1" value="Play Again" onclick="startPlayAgain()" />
 						<input class="buttons" type="button" id="btn2" value="Exit" onclick="navExit()" />
