@@ -2,14 +2,57 @@
 	width: 100%;
 	/*background-color: #00d0ff;*/
 	margin: 0px;
-	z-index: -5;
+	/*z-index: 0;*/
 }
 
 .gamebox {
 	width: 330px;
-	background-color: none;
+	height: 330px;
+	/*background-color: transparent;*/
 	margin: 100px auto;
 	opacity: .8;
+	position: relative;
+	z-index: 1;
+}
+
+/*Popup over the gameBox to signal win, lose, draw*/
+.popup {
+	height: 231px;
+	width: 70%;
+	background: black;
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	position: absolute;
+	color: white;
+	top: 50px;
+	left: 50px;
+	z-index: 5;
+
+}
+
+#start {
+	font-family: 'Volkhov', serif;
+	font-size: 50px;
+}
+
+#win {
+	font-family: 'Volkhov', serif;
+	font-size: 40px;
+	display: none;
+
+}
+
+#lose {
+	font-family: 'Volkhov', serif;
+	font-size: 40px;
+	display: none;
+}
+
+#tie {
+	font-family: 'Volkhov', serif;
+	font-size: 40px;
+	display: none;
 }
 
 body {
