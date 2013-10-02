@@ -22,10 +22,11 @@ function timeout() {
 	if(popupOpacity >= -0.1)
 			setTimeout("timeout();", 100);
 
-	if(popupOpacity <= 0);
+	if(popupOpacity <= -0.1);
  		document.getElementById("start").style.left="-50000px";
 }
 
+// try display: none
 /*function hidePopup (){
 	popup.style.display = "none";
 }
@@ -58,7 +59,11 @@ function playBox(){
 	var champ;
 
 		if(singArray[0] == singArray[1] && singArray[1] == singArray[2] && singArray[0] != "")
-			document.getElementById("win").innerHTML=style.display = inline-block; // = (singArray[0] + " is the champion!");
+			{champ = singArray[0];
+				document.getElementById("win").innerHTML=champ + " is the champion!";
+				document.getElementById("win").style.display="inline-block";
+			}
+		
 
 		if(singArray[3] == singArray[4] && singArray[4] == singArray[5] && singArray[3] != "")
 			{champ = singArray[3];
@@ -67,24 +72,45 @@ function playBox(){
 			}
 		
 		if(singArray[6] == singArray[7] && singArray[7] == singArray[8] && singArray[6] != "")
-			alert(singArray[6] + " is the champion!");
+			{champ = singArray[6];
+				document.getElementById("win").innerHTML=champ + " is the champion!";
+				document.getElementById("win").style.display="inline-block";
+			}
 
 		if(singArray[0] == singArray[3] && singArray[3] == singArray[6] && singArray[0] != "")
-			alert(singArray[0] + " is the champion!");
+			{champ = singArray[0];
+				document.getElementById("win").innerHTML=champ + " is the champion!";
+				document.getElementById("win").style.display="inline-block";
+			}
+
 		if(singArray[1] == singArray[4] && singArray[4] == singArray[7] && singArray[1] != "")
-			alert(singArray[1] + " is the champion!");
+			{champ = singArray[1];
+				document.getElementById("win").innerHTML=champ + " is the champion!";
+				document.getElementById("win").style.display="inline-block";
+			}
+
 		if(singArray[2] == singArray[5] && singArray[5] == singArray[8] && singArray[2] != "")
-			alert(singArray[2] + " is the champion!");
+			{champ = singArray[2];
+				document.getElementById("win").innerHTML=champ + " is the champion!";
+				document.getElementById("win").style.display="inline-block";
+			}
+
 		if(singArray[0] == singArray[4] && singArray[4] == singArray[8] && singArray[0] != "")
-			alert(singArray[0] + " is the champion!");
+			{champ = singArray[0];
+				document.getElementById("win").innerHTML=champ + " is the champion!";
+				document.getElementById("win").style.display="inline-block";
+			}
 		
 		if(singArray[2] == singArray[4] && singArray[4] == singArray[6] && singArray[2] != "")
-			alert(singArray[6] + " is the champion!");
+			{champ = singArray[2];
+				document.getElementById("win").innerHTML=champ + " is the champion!";
+				document.getElementById("win").style.display="inline-block";
+			}
 
 	}
 
 function startPlayAgain() {
-	location.href="TicTacToe.html"
+	location.href="TicTacToe.html" //explore # reload
 }
 
 function navExit() {

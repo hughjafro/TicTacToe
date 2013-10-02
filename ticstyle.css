@@ -33,12 +33,16 @@
 
 #start {
 	font-family: 'Volkhov', serif;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 #win {
+	height: 130px;
+	width: 80%;
+	top: 100px;
+	left:36px;
 	font-family: 'Volkhov', serif;
-	font-size: 40px;
+	font-size: 45px;
 	display: none;
 
 }
@@ -56,8 +60,8 @@
 }
 
 body {
-	background: black;
-	background: url("GIFBARKZ.gif");
+	background: none;
+	background: url("images/GIFBARKZ.gif");
 	/*background: url("http://cdn.fansided.com/wp-content/blogs.dir/202/files/2012/11/GIFBARKZ.gif");*/
 	background-size: 100%;
     background-position: inherit;
